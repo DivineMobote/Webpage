@@ -74,3 +74,23 @@ function toggleBioAndImg(bioId, imgId) {
     }
 }
 //End Ayden's JS
+
+// Divine's JS
+/**
+ * Toggles Divine's bio and switches card background to pink
+ * @param {string} bioId - The ID of the bio section to show or hide
+ * @param {string} cardId - The ID of the card to change background color
+ */
+function toggleDivineBio(bioId, cardId) {
+    const bio = document.getElementById(bioId);
+    const card = document.getElementById(cardId);
+
+    if (bio.style.display === "none" || bio.style.display === "") {
+        bio.style.display = "block";
+        card.classList.add("expanded");
+    } else {
+        bio.style.display = "none";
+        card.classList.remove("expanded");
+    }
+}
+// End Divine's JS
