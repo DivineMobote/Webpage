@@ -31,3 +31,46 @@ function showSection(sectionId) {
         visionSection.style.display = "block";
     }
 }
+
+//Ayden's JS
+/**
+ * Toggles the display of an individual team member's bio and image
+ * @param {string} bioId - The ID of the bio section to show or hide
+ * @param {string} imgId - The ID of the image to show or hide
+ */
+function toggleBioAndImg(bioId, imgId) {
+    const bio = document.getElementById(bioId);
+    const img = document.getElementById(imgId);
+    const div = document.getElementById("A_div")
+    const favTools = document.getElementById("FavTools");
+    const favToolsList = document.getElementById("FavToolsList");
+    const myLinks = document.getElementById("MyLinks");
+    const myLinksList = document.getElementById("MyLinksList");
+    const button = document.getElementById("A_button");
+    // Toggle between showing and hiding elements
+    if (bio.style.display === "none" || bio.style.display === "") {
+
+        bio.style.display = "block";
+        img.style.display = "inline-block";
+        img.style.border = "5px solid darkgreen";
+        div.style.backgroundColor = "lightgreen";
+        div.style.border = "5px solid darkgreen";
+        button.style.backgroundColor = "darkgreen";
+        favTools.style.display = "block";
+        favToolsList.style.display = "block";
+        myLinks.style.display = "block";
+        myLinksList.style.display = "block";
+
+    } else {
+        bio.style.display = "none";
+        img.style.display = "none";
+        div.style.backgroundColor = "";
+        div.style.border = "";
+        favTools.style.display = "none";
+        favToolsList.style.display = "none";
+        myLinks.style.display = "none";
+        myLinksList.style.display = "none";
+        button.style.backgroundColor = "";
+    }
+}
+//End Ayden's JS

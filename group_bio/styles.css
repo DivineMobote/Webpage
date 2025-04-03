@@ -88,3 +88,36 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+
+/*Aydens Styles*/
+.image-container img {
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.image-container img:hover {
+    width: 285px;
+    height: auto;
+}
+.tools-section ul, .links-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.tools-section li, .links-section li {
+    margin-bottom: 5px;
+}
+.tools-section li:hover{
+    border:2px solid darkgreen;
+    border-radius: 50px;
+}
+.links-section a {
+    color: dimgray;
+    text-decoration: none;
+    font-weight: bold;
+}
+.links-section a:hover {
+    font-size: larger;
+    color: darkgreen;
+    text-decoration: underline;
+}
+/*End Ayden's Styles*/
