@@ -121,3 +121,26 @@ button:hover {
     text-decoration: underline;
 }
 /*End Ayden's Styles*/
+
+/*Divine's Bio Styles*/
+.divine-bio-avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50% 50% 40% 40%;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #ffb6c1;
+}
+.divine-card {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+.divine-card.expanded {
+    background-color: #ffeaf3;
+}
+.divine-mood-icon {
+    width: 40px;
+    margin: 5px;
+}
+/*Divine's Bio Styles*/
