@@ -18,6 +18,8 @@ header {
 .team-logo {
     width: 150px; /* Adjust the size as needed */
     margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 /* Menu button styling */
