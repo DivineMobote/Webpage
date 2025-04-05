@@ -146,3 +146,44 @@ button:hover {
     margin: 5px;
 }
 /*Divine's Bio Styles*/
+
+
+/*Shyam's Bio Styles*/
+.shyam-bio-avatar {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 45% 45% 35% 35%;
+    display: block;
+    margin: 15px auto;
+    border: 3px solid #dea233;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+.shyam-bio-avatar:hover {
+    transform: scale(1.05);
+}
+
+.shyam-card {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.shyam-card.expanded {
+    background-color: #f4ce88;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.shyam-mood-icon {
+    width: 44px;
+    margin: 8px;
+    transition: transform 0.2s ease;
+}
+.shyam-mood-icon:hover {
+    transform: scale(1.1);
+}
+/*Shyam's Bio Styles*/
+
