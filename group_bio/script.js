@@ -94,3 +94,18 @@ function toggleDivineBio(bioId, cardId) {
     }
 }
 // End Divine's JS
+
+// Shyam's JS
+function toggleShyamBio(bioId, cardId) {
+    const bio = document.getElementById(bioId);
+    const card = document.getElementById(cardId);
+
+    if (bio.style.display === "none" || bio.style.display === "") {
+        bio.style.display = "block";
+        card.classList.add("expanded");
+    } else {
+        bio.style.display = "none";
+        card.classList.remove("expanded");
+    }
+}
+// End Shyam's JS
