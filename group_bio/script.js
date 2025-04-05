@@ -109,3 +109,26 @@ function toggleShyamBio(bioId, cardId) {
     }
 }
 // End Shyam's JS
+//Deeksha's js
+function toggleDeekshaBio(bioId, cardId) {
+    const bio = document.getElementById(bioId);
+    const card = document.getElementById(cardId);
+    const button = card.querySelector('.deeksha-button');
+
+    if (bio.style.display === "none" || bio.style.display === "") {
+        bio.style.display = "block";
+        card.classList.add("expanded");
+        button.textContent = "Hide Bio";
+
+        // Add pulse animation to moodboard icons
+        const icons = bio.querySelectorAll('.moodboard-icons img');
+        icons.forEach((icon, index) => {
+            icon.style.animation = `pulse 0.6s ease ${index * 0.1}s`;
+        });
+    } else {
+        bio.style.display = "none";
+        card.classList.remove("expanded");
+        button.textContent = "Show Bio";
+    }
+}
+// End Deeksha's Js

@@ -30,12 +30,43 @@
         <button onclick="toggleBio('bio1')">Show Bio</button>
         <p id="bio1" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
     </div>
-    <div class="card">
-        <h2>Deeksha Marpadaga</h2>
-        <p>UI/UX Designer</p>
-        <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+   <!-- Deeksha's Card -->
+<div class="card deeksha-card" id="deeksha-card">
+    <h2 class="deeksha-name">Deeksha Marpadaga</h2>
+    <p class="deeksha-title">Developer</p>
+    <button class="deeksha-button" onclick="toggleDeekshaBio('bio2', 'deeksha-card')">Show Bio</button>
+    <div id="bio2" class="bio deeksha-bio">
+        <!-- Avatar -->
+        <img src="img/Deeksha.jpg" alt="Deeksha Avatar" class="deeksha-avatar">
+
+        <!-- Bio Text -->
+        <div class="deeksha-bio-text">
+            <p><strong>About:</strong><br>
+            Deeksha is a developer with a passion for creating software applications.
+            She specializes in Python and has an interest in machine learning and data visualizations.
+            In her free time, she enjoys Kaggle challenges, hackathons and exploring new technologies.</p>
+        </div>
+
+        <!-- Moodboard -->
+        <div class="deeksha-moodboard">
+            <h3>Tech Toolkit</h3>
+            <div class="moodboard-icons">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="Python" title="Python">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/640px-R_logo.svg.png" alt="R" title="R">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsXrpPO3Izgbgjv8ytAxXeKIuWb9pQM74uPw&s" alt="Jupyter" title="Jupyter Notebook">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR98EumfCtICiwQ9Wujj5I593BgGsA0IALNNQ&s" alt="Matplotlib" title="Matplotlib">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwswZJnfO4BT9Mp17jhdXSn5KaWeSLgRSO5g&s" alt="Scikit" title="scikit learn">
+            </div>
+
+            <div class="deeksha-links">
+                <a href="https://www.kaggle.com/" target="_blank" class="kaggle-link">Kaggle</a>
+                <a href="https://github.com/deekshamarpadaga" target="_blank" class="github-link">GitHub</a>
+                <a href="https://docs.python.org/3/" target="_blank" class="python-link">Python</a>
+            </div>
+        </div>
     </div>
+</div>
+<!-- End Deeksha's Card -->
 
 <!--Divine's card-->
     <div class="card divine-card" id="divine-card">
