@@ -187,3 +187,137 @@ button:hover {
 }
 /*Shyam's Bio Styles*/
 
+/* Deeksha's Card */
+.deeksha-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.deeksha-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.deeksha-name {
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0 0 5px;
+    text-shadow: none;
+}
+
+.deeksha-title {
+    color: #666;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.deeksha-button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: none;
+}
+
+.deeksha-button:hover {
+    background: #0056b3;
+    transform: none;
+}
+
+
+.deeksha-card.expanded {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f4ff 100%);
+}
+
+.deeksha-card.expanded .deeksha-button {
+    background: linear-gradient(to right, #ff7b9c, #ff7676);
+    border-radius: 25px;
+}
+
+.deeksha-bio {
+    display: none;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+
+.deeksha-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ff7b9c;
+    margin: 0 auto 15px;
+    display: block;
+    object-fit: cover;
+}
+
+.deeksha-bio-text {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 3px solid #6a7ba2;
+}
+
+.moodboard-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.moodboard-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.moodboard-icons img:hover {
+    transform: scale(1.2);
+}
+
+.deeksha-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.deeksha-links a {
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    transition: all 0.3s ease;
+}
+
+.kaggle-link {
+    background: #20beff;
+    color: white;
+}
+
+.github-link {
+    background: #333;
+    color: white;
+}
+
+.python-link {
+    background: #ff7b9c;
+    color: white;
+}
+
+.deeksha-links a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+/* End Deeksha's Card */
+
