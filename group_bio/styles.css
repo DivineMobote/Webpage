@@ -321,6 +321,100 @@ button:hover {
 
 /* End Deeksha's Card */
 
+/* Alejandro's Bio Styles */
+.alejandro-card {
+    background-color: darkolivegreen; /* Forest green background */
+    border: 4px solid black;       /* Black trimming around the card */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    /* No transition property to prevent hover animations */
+}
+
+.alejandro-name {
+    font-weight: bold;
+    color: black;
+    margin: 0 0 10px;
+}
+
+.alejandro-title {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.alejandro-button {
+    background: black;
+    color: darkolivegreen;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.alejandro-button:hover {
+    background: navajowhite;
+}
+
+.alejandro-avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Section Headers for Favorite Tools and Links */
+.section-header {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Bio Text Color */
+#bio-alejandro {
+    color: black;
+}
+
+/* Favorite Tools list items */
+#tools-alejandro li {
+    color: black;
+    font-weight: normal;
+    list-style: square;
+    margin-inside: 5px 5;
+}
+
+#tools-alejandro li strong {
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* Change favorite tools text color on hover */
+#tools-alejandro li:hover {
+    color: navajowhite;
+    border: none;
+}
+
+/* External Links styling */
+#links-alejandro li a {
+    color: black;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+/* Change link color on hover */
+#links-alejandro li a:hover {
+    color: navajowhite;
+    font-weight: bold;
+}
+
+/* End Alejandro's Bio Style */
+
 /*Page 2*/
 #page2 {
   display: flex;
