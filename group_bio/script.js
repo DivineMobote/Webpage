@@ -135,3 +135,38 @@ function toggleDeekshaBio(bioId, cardId) {
     }
 }
 // End Deeksha's Js
+
+// Alejandro's JS
+/**
+ * Toggles Alejandro's bio, image, favorite tools, and external links.
+ * @param {string} bioId - The ID of Alejandro's bio text element.
+ * @param {string} imgId - The ID of Alejandro's avatar image element.
+ */
+function toggleAlejandroBio(bioId, imgId) {
+    const bio = document.getElementById(bioId);
+    const img = document.getElementById(imgId);
+    const tools = document.getElementById("tools-alejandro");
+    const links = document.getElementById("links-alejandro");
+    const headerTools = document.querySelector("#alejandro-card .tools-section .section-header");
+    const headerLinks = document.querySelector("#alejandro-card .links-section .section-header");
+    const button = document.querySelector("#alejandro-card .alejandro-button");
+
+    if (bio.style.display === "none" || bio.style.display === "") {
+        bio.style.display = "block";
+        img.style.display = "block";
+        tools.style.display = "block";
+        links.style.display = "block";
+        if (headerTools) headerTools.style.display = "block";
+        if (headerLinks) headerLinks.style.display = "block";
+        button.textContent = "Hide Bio";
+    } else {
+        bio.style.display = "none";
+        img.style.display = "none";
+        tools.style.display = "none";
+        links.style.display = "none";
+        if (headerTools) headerTools.style.display = "none";
+        if (headerLinks) headerLinks.style.display = "none";
+        button.textContent = "Show Bio";
+    }
+}
+// End Alejandro's JS
