@@ -150,8 +150,11 @@ function toggleAlejandroBio(bioId, imgId) {
     const headerTools = document.querySelector("#alejandro-card .tools-section .section-header");
     const headerLinks = document.querySelector("#alejandro-card .links-section .section-header");
     const button = document.querySelector("#alejandro-card .alejandro-button");
-
+    const button1 = document.getElementById("button_alejandro")
+    const div = document.getElementById("alejandro-card");
     if (bio.style.display === "none" || bio.style.display === "") {
+        div.style.backgroundColor = "darkolivegreen";
+        div.style.border = "4px solid black";
         bio.style.display = "block";
         img.style.display = "block";
         tools.style.display = "block";
@@ -159,7 +162,14 @@ function toggleAlejandroBio(bioId, imgId) {
         if (headerTools) headerTools.style.display = "block";
         if (headerLinks) headerLinks.style.display = "block";
         button.textContent = "Hide Bio";
+        button1.style.backgroundColor = "black";
+        button1.style.color = "darkolivegreen";
+        button1.classList.remove("hover-normal");
+        button1.classList.add("hover-tan");
+
     } else {
+        div.style.backgroundColor = "white";
+        div.style.border = "none";
         bio.style.display = "none";
         img.style.display = "none";
         tools.style.display = "none";
@@ -167,6 +177,11 @@ function toggleAlejandroBio(bioId, imgId) {
         if (headerTools) headerTools.style.display = "none";
         if (headerLinks) headerLinks.style.display = "none";
         button.textContent = "Show Bio";
+        button1.style.backgroundColor = "#007BFF";
+        button1.style.color = "white";
+        button1.classList.remove("hover-tan");
+        button1.classList.add("hover-normal");
+
     }
 }
 // End Alejandro's JS

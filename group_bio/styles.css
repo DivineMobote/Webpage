@@ -323,8 +323,6 @@ button:hover {
 
 /* Alejandro's Bio Styles */
 .alejandro-card {
-    background-color: darkolivegreen; /* Forest green background */
-    border: 4px solid black;       /* Black trimming around the card */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -340,14 +338,13 @@ button:hover {
 }
 
 .alejandro-title {
-    font-weight: bolder;
     color: black;
     margin-bottom: 10px;
 }
 
 .alejandro-button {
-    background: black;
-    color: darkolivegreen;
+    /*background: black;*/
+    /*color: darkolivegreen;*/
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -355,8 +352,12 @@ button:hover {
     transition: all 0.3s ease;
 }
 
-.alejandro-button:hover {
-    background: navajowhite;
+.hover-tan:hover {
+    background-color: tan !important;
+}
+
+.hover-normal:hover {
+    background-color: #0056b3 !important;
 }
 
 .alejandro-avatar {
@@ -417,78 +418,76 @@ button:hover {
 
 /*Page 2*/
 #page2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f5f7fa;
-  /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-  color: #1f1f1f;
-  padding: 2rem;
-  box-sizing: border-box;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7fa;
+    color: #1f1f1f;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 #page2 #vision {
-  background-color: #ffffff;
-  border-radius: 12px;
-  padding: 2rem;
-  max-width: 1500px;
-  width: 100%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  display: none;
-  margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 1500px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: none;
+    margin: 0 auto;
 }
 
 #page2 #vision h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  color: #2c3e50;
-  border-bottom: 2px solid #3498db;
-  padding-bottom: 0.5rem;
-  display: inline-block;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    display: inline-block;
 }
 
 #page2 #vision p {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 #page2 #vision ul {
-  list-style: none;
-  padding-left: 0;
-  font-size: 1rem;
-  line-height: 1.5;
+    list-style: none;
+    padding-left: 0;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 #page2 #vision ul li::before {
-  content: "• ";
-  color: #3498db;
+    content: "• ";
+    color: #3498db;
 }
 
 #page2 #vision ul li {
-  margin-bottom: 0.5rem;
-  color: #34495e;
+    margin-bottom: 0.5rem;
+    color: #34495e;
 }
 
 #page2 #contact {
-  margin-top: 2rem;
-  padding: 1.5rem;
-  background-color: #ecf0f1;
-  border-left: 5px solid #2980b9;
-  border-right: 5px solid #2980b9;
-  display: none;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #ecf0f1;
+    border-left: 5px solid #2980b9;
+    border-right: 5px solid #2980b9;
+    display: none;
 }
 
 #page2 #contact h2 {
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
-  color: #2c3e50;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
 }
 
 #page2 #contact p {
-  font-size: 1rem;
-  color: #2c3e50;
+    font-size: 1rem;
+    color: #2c3e50;
 }
