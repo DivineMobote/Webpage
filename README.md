@@ -25,5 +25,22 @@ We built a responsive webpage to showcase our team’s identity as computer scie
 
 ##  How to Run
 
-Open the `index.html` file in your browser:
+Open the `index.html` file in your browser
+
+---
+
+##  Project Information
+
+- **Purpose:** Practice front-end development and teamwork
+- **Course:** ITSC 3155 – Software Engineering
+- **Semester:** Fall 2024
+- **Team Members:**
+  - Divine Mobote
+  - Alejandro Murillo
+  - Ayden Hocking
+  - Deeksha Marpadaga
+  - Shyam Pedibhotla
+
+---
+
 
